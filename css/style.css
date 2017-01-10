@@ -1,0 +1,63 @@
+body {
+  font-family: sans-serif;
+}
+
+.projectsHeader{
+  font-weight: bold;
+}
+
+.projectNameDisplay{
+  font-size: 150%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.filesDisplay{
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.projectInfo{
+  /*font-weight: 900;*/
+  display: none;
+}
+
+.filesInfo{
+  display: none;
+}
+
+.sourceCode{
+    display: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.commentReply{
+  position: absolute;
+    right: 10px;
+    /*background-color: #4CAF50;*/
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.commentReply:hover{
+  color:white;
+  background-color: #333333;
+}
+.commentContainer{
+    position: relative;
+}
+
+.rootComment{
+  border-bottom: #CCCCCC solid 1px;
+  padding: 10px 0px;
+}
+
+#submitButton{
+  margin-bottom: 20px;
+}
